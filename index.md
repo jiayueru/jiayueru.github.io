@@ -6,7 +6,7 @@ layout: homepage
 
 <h2 style="margin: 80px 0px 10px;"></h2>
 
-I am an Assistant Professor in the [School of Information Sciences](https://ischool.illinois.edu/) at the [University of Illinois Urbana-Champaign](https://www.illinois.edu/). I am also affiliated with the [Siebel School of Computing and Data Science](https://siebelschool.illinois.edu/).
+I am currently a first-year Master's student at the School of Computer Science, Peking University, advised by [Prof. Shanghang Zhang](https://www.shanghangzhang.com/). In 2020, I completed my Bachelor's degree in Artificial Intelligence as part of the inaugural cohort of the [Tong Class](https://tongclass.ac.cn/) at Yuanpei College, Peking University. I was fortunate to be honored with the PKU Excellent Graduate Award.
 
 My research lies at the intersection of **computer vision** and **machine learning** -- with a special focus on building intelligent visual systems that are continual and data-efficient. My research interests include **continual learning**, **few-shot learning**, **semi-supervised learning**, **generative models**, **3D geometry models**, and **medical imaging**.
 
