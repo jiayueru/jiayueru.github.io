@@ -21,8 +21,22 @@ My research interests lie in the fields of <strong>Robotics</strong> and <strong
 {% include_relative _includes/news.md %}
 {% include_relative _includes/publications.md %}
 
-<div id="clustr_globe_container" style="width: 150px; height: 150px; overflow: hidden;">
-    <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=KCF-QP8FkuyvE6V7QfgIlkKHe3IF7HJX5mURySx5lYU"></script>
+## Miscellaneous
+
+In my free time, I enjoy exploring new activities, including photography 📷, playing badminton 🏸, and the piano 🎹. I hope that one day, my robotic friends can join in the fun too! 🤖✨
+
+<div id="clustr_globe_container" style="
+    width: 250px;  /* 放大宽度 */
+    height: 250px; /* 放大高度 */
+    display: flex;
+    justify-content: center; /* 水平居中 */
+    align-items: center; /* 垂直居中 */
+    margin: auto;  /* 确保在父容器中水平居中 */
+    overflow: hidden;">
+    <script type="text/javascript" id="clstr_globe" 
+        src="//clustrmaps.com/globe.js?d=KCF-QP8FkuyvE6V7QfgIlkKHe3IF7HJX5mURySx5lYU">
+    </script>
 </div>
+
 
 <!-- {% include_relative _includes/contact.md %} -->
