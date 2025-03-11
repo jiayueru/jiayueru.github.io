@@ -21,3 +21,4 @@ main:
 
   - title: "Home"
     url: /
+    right: true 

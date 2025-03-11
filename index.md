@@ -26,8 +26,8 @@ My research interests lie in the fields of <strong>Robotics</strong> and <strong
 In my free time, I enjoy exploring new activities, including photography 📷, playing badminton 🏸, and the piano 🎹. I hope that one day, my robotic friends can join in the fun too! 🤖✨
 
 <div id="clustr_globe_container" style="
-    width: 250px;  /* 放大宽度 */
-    height: 250px; /* 放大高度 */
+    width: 200px;  /* 放大宽度 */
+    height: 200px; /* 放大高度 */
     display: flex;
     justify-content: center; /* 水平居中 */
     align-items: center; /* 垂直居中 */

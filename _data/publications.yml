@@ -3,7 +3,7 @@ main:
   - title: "Lift3D Foundation Policy: Lifting 2D Large-Scale Pretrained Models for Robust 3D Robotic Manipulation"
     authors: <strong>Yueru Jia*</strong>, Jiaming Liu*, Sixiang Chen*, Chenyang Gu, Zhilue Wang, Longzan Luo, Lily Lee, Pengwei Wang, Renrui Zhang, Zhongyuan Wang, Shanghang Zhang
     conference_short: CVPR 2025
-    conference: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR|CCF-A), 2025.
+    conference: IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2025.
     pdf: https://arxiv.org/abs/2411.18623
     page: https://lift3d-web.github.io/
     code: https://github.com/PKU-HMI-Lab/LIFT3D.git
@@ -13,7 +13,7 @@ main:
   - title: "DesignEdit: Unify Spatial-Aware Image Editing via Training-free Inpainting with a Multi-Layered Latent Diffusion Framework"
     authors: <strong>Yueru Jia</strong>, Aosong Cheng, Yuhui Yuan, Chuke Wang, Ji Li, Huizhu Jia, Shanghang Zhang
     conference_short: AAAI 2025
-    conference: Proceedings of the AAAI Conference on Artificial Intelligence (AAAI|CCF-A), 2025.
+    conference: The 39th AAAI Conference on Artificial Intelligence (AAAI-25), 2025.
     pdf: https://arxiv.org/abs/2403.14487
     code: https://github.com/design-edit/DesignEdit
     page: https://design-edit.github.io/
