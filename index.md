@@ -21,4 +21,7 @@ My research interests lie in the fields of <strong>Robotics</strong> and <strong
 
 {% include_relative _includes/news.md %}
 {% include_relative _includes/publications.md %}
+
+<script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=KCF-QP8FkuyvE6V7QfgIlkKHe3IF7HJX5mURySx5lYU"></script>
+
 <!-- {% include_relative _includes/contact.md %} -->
