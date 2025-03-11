@@ -18,10 +18,11 @@ My research interests lie in the fields of <strong>Robotics</strong> and <strong
 
 - **Master's in Computer Science**, Peking University (2024.9–Present)  
 - **Bachelor's in Artificial Intelligence**, Peking University (2020.9–2024.6)  
-
 {% include_relative _includes/news.md %}
 {% include_relative _includes/publications.md %}
 
-<script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=KCF-QP8FkuyvE6V7QfgIlkKHe3IF7HJX5mURySx5lYU"></script>
+<div id="clustr_globe_container" style="width: 150px; height: 150px; overflow: hidden;">
+    <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=KCF-QP8FkuyvE6V7QfgIlkKHe3IF7HJX5mURySx5lYU"></script>
+</div>
 
 <!-- {% include_relative _includes/contact.md %} -->
