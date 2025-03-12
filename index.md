@@ -17,7 +17,7 @@ My research interests lie in the fields of <strong>Robotics</strong> and <strong
 ## Education
 
 - **Master's in Computer Science**, Peking University (2024.9–Present)  
-- **Bachelor's in Artificial Intelligence**, Peking University (2020.9–2024.6)  
+- **Bachelor's in Artificial Intelligence**, Peking University (2020.9–2024.7)  
 {% include_relative _includes/news.md %}
 {% include_relative _includes/publications.md %}
 
