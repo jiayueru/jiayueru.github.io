@@ -19,6 +19,11 @@ main:
   # - title: "Publications"
   #   url: /publications/
 
-  - title: "Home"
-    url: /
-    right: true 
+  - title: "About"
+    url: /#about-me
+
+  - title: "Projects"
+    url: /#publications
+
+  - title: "Experience"
+    url: /#experience 
