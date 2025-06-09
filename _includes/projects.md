@@ -1,5 +1,5 @@
-<div id="experience" style="position: relative; top: -80px;"></div>
-<h2 style="margin: 60px 0px 10px;">Projects & Experience</h2>
+<div id="experience" style="position: relative; top: -60px;"></div>
+<h2 style="margin: 60px 0px 10px;">Experience</h2>
 
 <div class="project-item" style="margin-bottom: 30px;">
   <div style="display: flex; align-items: flex-start; gap: 20px; flex-wrap: wrap;">
