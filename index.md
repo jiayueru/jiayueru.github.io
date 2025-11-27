@@ -8,7 +8,7 @@ layout: homepage
 
 ## About Me
 
-I am currently a first-year Master's student at the School of Computer Science, Peking University, advised by [Prof. Shanghang Zhang](https://www.shanghangzhang.com/). Previously, I completed my Bachelor's degree in Artificial Intelligence as part of the inaugural cohort of the [Tong Class](https://tongclass.ac.cn/) at Yuanpei College, Peking University. I was fortunate to be honored with the PKU Excellent Graduate Award.
+I am currently a second-year Master's student at the School of Computer Science, Peking University, advised by [Prof. Shanghang Zhang](https://www.shanghangzhang.com/). Previously, I completed my Bachelor's degree in Artificial Intelligence as part of the inaugural cohort of the [Tong Class](https://tongclass.ac.cn/) at Yuanpei College, Peking University. I was fortunate to be honored with the **PKU Excellent Graduate Award**.
 
 I am also open to collaborative opportunities and research partnerships. Looking ahead, I am excited to pursue a Ph.D. in Robotics for the upcoming 2027 Fall.
 
@@ -23,10 +23,11 @@ My research interests lie in the fields of <strong>Robotics</strong> and <strong
 {% include_relative _includes/news.md %}
 {% include_relative _includes/publications.md %}
 {% include_relative _includes/projects.md %}
+{% include_relative _includes/honors.md %}
 
 ## Miscellaneous
 
-In my free time, I enjoy exploring new activities, including photography 📷, playing badminton 🏸, and the piano 🎹. I hope that one day, my robotic friends can join in the fun too! 🤖✨
+I love reading books and magazines, listening to podcasts, and recording moments from my daily life. In my free time, I enjoy exploring new activities, such as photography 📷, badminton 🏸, piano 🎹, and skiing ⛷️. I hope that someday, my robotic friends can join in the fun too! 🤖✨
 
 
 <div id="clustr_globe_container" style="
