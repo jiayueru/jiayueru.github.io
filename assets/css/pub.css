@@ -83,7 +83,7 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
     padding: 0 20px 0 0;
 }
 
-.pub-teaser + .col-sm-9 { min-width: 0; }
+.pub-teaser + .col-sm-9 { min-width: 0; box-sizing: border-box; }
 
 .teaser-card {
     display: block;
@@ -130,9 +130,10 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 
 .teaser-card-front {
     display: grid;
-    place-items: center;
-    /* Equal breathing room keeps the image centered, independent of the hint. */
-    padding: 28px 2px;
+    /* Matching outer rows reserve label space and keep the image centered. */
+    grid-template-rows: minmax(30px, 1fr) auto minmax(30px, 1fr);
+    align-items: center;
+    padding: 8px 4px;
 }
 
 .teaser-card-front img {
@@ -140,28 +141,35 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
     width: 100%;
     height: auto;
     object-fit: contain;
-    border-radius: 7px 7px 0 0;
+    object-position: center;
+    border-radius: 0;
 }
 
 .teaser-card-media {
     display: block;
-    position: relative;
     width: 100%;
     min-width: 0;
 }
 
-.teaser-card-caption {
-    position: absolute;
-    right: 8px;
-    bottom: 6px;
+.teaser-card-label {
     display: flex;
+    align-self: start;
+    min-width: 0;
+    padding: 0 4px;
+}
+
+.teaser-card-caption {
+    display: flex;
+    align-self: end;
     align-items: center;
+    padding: 0 4px;
 }
 
 .teaser-card-badge {
-    position: absolute;
-    bottom: calc(100% + 6px);
-    left: 6px;
+    display: inline-block;
+    max-width: 100%;
+    box-sizing: border-box;
+    overflow-wrap: anywhere;
     padding: 3px 8px;
     border-radius: 3px;
     background: #13294b;
