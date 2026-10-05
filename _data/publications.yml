@@ -1,5 +1,31 @@
 main:
 
+  - title: "Q-Learning With World Models"
+    authors: Perry Dong*, <strong>Yueru Jia*</strong>, Chelsea Finn, Dorsa Sadigh
+    conference_short: arXiv 2026
+    conference: arXiv Preprint, 2026.
+    pdf: https://arxiv.org/pdf/2608.17163
+    image: ./assets/img/qwm_teaser.png
+    notes: Co-First Author
+
+  - title: "TACO: TActile World Model as a Self-COrrector for Scalable Robot Policy Post-Training"
+    authors: Shengbang Liu*, <strong>Yueru Jia*</strong>, Yuyang Yan*, Jiaming Liu*, Xinran Zhang*, Qiuxuan Feng, Yandong Guo, Shiji Zhou, Boxin Shi, Shanghang Zhang
+    conference_short: arXiv 2026
+    conference: arXiv Preprint, 2026.
+    pdf: https://arxiv.org/pdf/2607.02840
+    page: https://taco-wm.github.io/
+    image: ./assets/img/taco_teaser.png
+    notes: Co-First Author
+
+  - title: "HarmoWAM: Harmonizing Generalizable and Precise Manipulation via Adaptive World Action Models"
+    authors: Qiuxuan Feng*, Jiale Yu*, Jiaming Liu*, <strong>Yueru Jia*</strong>, Zhuangzhe Wu, Hao Chen, Zezhong Qian, Shuo Gu, Peng Jia, Siwei Ma, Shanghang Zhang
+    conference_short: arXiv 2026
+    conference: arXiv Preprint, 2026.
+    pdf: https://arxiv.org/pdf/2605.10942
+    page: https://elbb-yu.github.io/HarmoWAM/
+    image: ./assets/img/harmowam_teaser.png
+    notes: Co-First Author
+
   - title: "Video2Act: A Dual-System Video Diffusion Policy with Robotic Spatio-Motional Modeling"
     authors: <strong>Yueru Jia*</strong>, Jiaming Liu*, Shengbang Liu*, Rui Zhou, Wanhe Yu, Yuyang Yan, Xiaowei Chi, Yandong Guo, Boxin Shi, Shanghang Zhang
     conference_short: arXiv 2025
