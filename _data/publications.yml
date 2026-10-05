@@ -7,6 +7,11 @@ main:
     pdf: https://arxiv.org/pdf/2608.17163
     page: https://pd-perry.github.io/qwm/
     image: ./assets/img/qwm_teaser.png
+    highlights_source: https://pd-perry.github.io/qwm/
+    highlights:
+      - "World-model tree search selects actions by imagining possible futures."
+      - "Q-values guide search during online learning and evaluation."
+      - "Policy and critic learn only from real environment experience."
     notes: Co-First Author
 
   - title: "Video2Act: A Dual-System Video Diffusion Policy with Robotic Spatio-Motional Modeling"
@@ -18,6 +23,11 @@ main:
     code: https://github.com/jiayueru/Video2Act
     github: https://github.com/jiayueru/Video2Act
     image: ./assets/img/video2act_pipeline.png
+    highlights_source: https://arxiv.org/abs/2512.03044
+    highlights:
+      - "Extracts object boundaries and motion cues from video diffusion models."
+      - "Pairs slow video understanding with a fast action policy."
+      - "Enables stable manipulation with infrequent video-model updates."
     notes: Co-First Author
 
   - title: "TACO: TActile World Model as a Self-COrrector for Scalable Robot Policy Post-Training"
@@ -27,6 +37,11 @@ main:
     pdf: https://arxiv.org/pdf/2607.02840
     page: https://taco-wm.github.io/
     image: ./assets/img/taco_teaser_left.png
+    highlights_source: https://arxiv.org/abs/2607.02840v2
+    highlights:
+      - "Recognizes contact failures and imagines joint visual–tactile corrections."
+      - "Labels corrective actions for iterative robot policy post-training."
+      - "Average task score: 0.375 → 0.825 after two iterations."
     notes: Co-First Author
 
   - title: "HarmoWAM: Harmonizing Generalizable and Precise Manipulation via Adaptive World Action Models"
@@ -36,6 +51,11 @@ main:
     pdf: https://arxiv.org/pdf/2605.10942
     page: https://elbb-yu.github.io/HarmoWAM/
     image: ./assets/img/harmowam_teaser.png
+    highlights_source: https://elbb-yu.github.io/HarmoWAM/
+    highlights:
+      - "Unifies generalizable transit and precise robot manipulation."
+      - "Adaptively coordinates predictive and reactive action experts."
+      - "89% in-domain / 82% OOD success across real-world benchmarks."
 
   - title: "Lift3D Foundation Policy: Lifting 2D Large-Scale Pretrained Models for Robust 3D Robotic Manipulation"
     authors: <strong>Yueru Jia*</strong>, Jiaming Liu*, Sixiang Chen*, Chenyang Gu, Zhilue Wang, Longzan Luo, Lily Lee, Pengwei Wang, Renrui Zhang, Zhongyuan Wang, Shanghang Zhang
@@ -45,6 +65,11 @@ main:
     page: https://lift3d-web.github.io/
     code: https://github.com/PKU-HMI-Lab/LIFT3D.git
     image: ./assets/img/lift3d_teaser.png
+    highlights_source: https://lift3d-web.github.io/
+    highlights:
+      - "Lifts pretrained 2D foundation models into 3D manipulation policies."
+      - "Builds spatial awareness through task-aware depth reconstruction."
+      - "Encodes point clouds using pretrained 2D positional embeddings."
     github: "https://github.com/PKU-HMI-Lab/LIFT3D"
     notes: Co-First Author
 
@@ -56,6 +81,11 @@ main:
     code: https://github.com/design-edit/DesignEdit
     page: https://design-edit.github.io/
     image: ./assets/img/design_teaser.png
+    highlights_source: https://design-edit.github.io/
+    highlights:
+      - "Unifies spatial image editing without additional model training."
+      - "Decomposes and fuses object layers in diffusion latent space."
+      - "Supports removal, relocation, resizing, composition, and more."
     github: "https://github.com/design-edit/DesignEdit"
     notes: First Author
 
@@ -67,6 +97,11 @@ main:
     page: https://wow-world-model.github.io/
     code: https://github.com/wow-world-model/wow-world-model
     image: ./assets/img/wow_teaser.png
+    highlights_source: https://wow-world-model.github.io/
+    highlights:
+      - "14B world model trained on 2M robot interaction trajectories."
+      - "SOPHIA refines imagined videos for greater physical consistency."
+      - "An inverse dynamics model turns plans into executable actions."
     github: https://github.com/wow-world-model/wow-world-model
 
   - title: "RwoR: Generating Robot Demonstrations from Human Hand Collection for Policy Learning without Robot"
@@ -75,3 +110,8 @@ main:
     conference: IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2025.
     pdf: https://arxiv.org/abs/2507.03930
     image: ./assets/img/rwor_teaser.jpg
+    highlights_source: https://arxiv.org/abs/2507.03930
+    highlights:
+      - "Collects human demonstrations with a wrist-mounted camera."
+      - "Translates human-hand videos into robot-gripper demonstrations."
+      - "Pairs generated observations with extracted SE(3) training actions."

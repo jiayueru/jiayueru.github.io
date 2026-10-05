@@ -6,12 +6,16 @@
 {% for link in site.data.publications.main %}
 
 <li>
-<div class="pub-row">
-  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+<div class="pub-row research-row">
+  <div class="col-sm-3 abbr pub-teaser" style="position: relative;padding-right: 15px;padding-left: 15px;">
     {% if link.image %} 
+    {% if link.highlights %}
+    {% include teaser-card.html work=link index=forloop.index %}
+    {% else %}
     <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width: 420px; height: auto;">
     {% if link.conference_short %} 
     <abbr class="badge">{{ link.conference_short }}</abbr>
+    {% endif %}
     {% endif %}
     {% endif %}
   </div>
@@ -54,3 +58,4 @@
 
 </ol>
 </div>
+<script src="{{ '/assets/js/teaser-cards.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>

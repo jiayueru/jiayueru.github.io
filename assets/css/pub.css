@@ -73,3 +73,149 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 .publications ol.bibliography li div.abstract.hidden.open { border-color: var(--global-text-color); }
 
 .publications ol.bibliography li .teaser { border-radius: 8px; box-shadow: 3px 3px 6px #888; height: 123px; width: 270px; margin-top: 5px; margin-left: 5px; margin-bottom: 5px; object-fit: cover; }
+
+.publications ol.bibliography li .pub-teaser {
+    box-sizing: border-box;
+    flex: 0 0 300px;
+    max-width: 100%;
+    height: auto;
+    margin: 12px 0;
+}
+
+.pub-teaser + .col-sm-9 { min-width: 0; }
+
+.teaser-card {
+    display: block;
+    width: 100%;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    color: #243852;
+    font: inherit;
+    text-align: left;
+    perspective: 1000px;
+    cursor: pointer;
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.teaser-card:focus-visible {
+    outline: 2px solid #ae6f92;
+    outline-offset: 5px;
+    border-radius: 10px;
+}
+
+.teaser-card-inner {
+    display: grid;
+    min-height: 200px;
+    transform-style: preserve-3d;
+    transition: transform 550ms cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+
+.teaser-card.is-flipped .teaser-card-inner { transform: rotateY(180deg); }
+
+.teaser-card-front,
+.teaser-card-back {
+    grid-area: 1 / 1;
+    position: relative;
+    box-sizing: border-box;
+    min-width: 0;
+    border: 1px solid #e0e5ed;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 4px 12px rgba(19, 41, 75, 0.09);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.teaser-card-front {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 8px;
+}
+
+.teaser-card-front img {
+    display: block;
+    width: 100%;
+    max-height: 175px;
+    object-fit: contain;
+}
+
+.teaser-card-badge {
+    position: absolute;
+    top: 8px;
+    left: 10px;
+    padding: 3px 8px;
+    border-radius: 3px;
+    background: #13294b;
+    color: #fff;
+    font-size: 11px;
+    line-height: 1.3;
+}
+
+.teaser-card-hint {
+    position: absolute;
+    bottom: 9px;
+    left: 0;
+    width: 100%;
+    color: #727b8a;
+    font-size: 11px;
+    line-height: 1.3;
+    text-align: center;
+}
+
+.teaser-card-back {
+    padding: 16px 15px 32px;
+    background: linear-gradient(145deg, #f6f8fc, #fff5f8);
+    transform: rotateY(180deg);
+}
+
+.teaser-card-heading {
+    display: block;
+    margin-bottom: 10px;
+    color: #13294b;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.teaser-card-points { display: grid; gap: 9px; }
+
+.teaser-card-point {
+    display: block;
+    position: relative;
+    padding-left: 12px;
+    font-size: 13px;
+    line-height: 1.4;
+}
+
+.teaser-card-point::before {
+    content: "";
+    position: absolute;
+    top: 0.5em;
+    left: 0;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: #ae6f92;
+}
+
+@media screen and (max-width: 700px) {
+    .research-row { display: block; }
+    .publications ol.bibliography li .pub-teaser {
+        width: 100%;
+        max-width: 360px;
+        margin: 16px auto;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .teaser-card-inner { transition: none; }
+}
+
+@media print {
+    .teaser-card.is-flipped .teaser-card-inner { transform: none; }
+    .teaser-card-back, .teaser-card-hint { display: none; }
+    .teaser-card-front { box-shadow: none; }
+}
