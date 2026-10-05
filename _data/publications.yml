@@ -13,8 +13,10 @@ main:
     authors: <strong>Yueru Jia*</strong>, Jiaming Liu*, Shengbang Liu*, Rui Zhou, Wanhe Yu, Yuyang Yan, Xiaowei Chi, Yandong Guo, Boxin Shi, Shanghang Zhang
     conference_short: arXiv 2025
     conference: arXiv Preprint, 2025.
-    pdf: https://video2act.github.io/
+    pdf: https://arxiv.org/pdf/2512.03044
     page: https://video2act.github.io/
+    code: https://github.com/jiayueru/Video2Act
+    github: https://github.com/jiayueru/Video2Act
     image: ./assets/img/video2act_pipeline.png
     notes: Co-First Author
 

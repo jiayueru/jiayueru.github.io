@@ -91,8 +91,13 @@
         }
     </style>
     
-    <div class="wrapper">
-      <header>
+    <div class="wrapper homepage-wrapper">
+      <header class="profile-sidebar">
+        <div class="profile-card">
+          <span class="rabbit-ears" aria-hidden="true">
+            <span class="rabbit-ear rabbit-ear-left"></span>
+            <span class="rabbit-ear rabbit-ear-right"></span>
+          </span>
         
         {% if site.avatar %}
         <a class="image avatar"><img src="{{ site.avatar }}" alt="avatar" /></a>
@@ -159,8 +164,7 @@
         {% endif %}
         </div>
         {% endif %}
-        <br>
-
+        </div>
       </header>
       <section>
 

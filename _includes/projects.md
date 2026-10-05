@@ -1,6 +1,5 @@
-<h2 id="experience" style="margin: 60px 0px 10px;">Experience</h2>
-
-<h3 id="projects" style="margin: 20px 0px;">Projects</h3>
+<span id="experience"></span>
+<h2 id="projects" style="margin: 60px 0px 10px;">Projects</h2>
 
 <div class="project-item" style="margin-bottom: 30px;">
   <div style="display: flex; align-items: flex-start; gap: 20px; flex-wrap: wrap;">
