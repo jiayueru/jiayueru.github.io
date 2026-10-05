@@ -10,15 +10,14 @@
 }
 
 .profile-card {
-  position: relative;
-  isolation: isolate;
   box-sizing: border-box;
   padding: 20px 18px 16px;
-  border: 1px solid #ece7ec;
-  border-radius: 24px;
-  background: #fff;
-  box-shadow: 0 16px 40px rgba(19, 41, 75, 0.10),
-              0 3px 10px rgba(19, 41, 75, 0.05);
+}
+
+.profile-portrait {
+  isolation: isolate;
+  width: 150px;
+  margin-bottom: 16px;
 }
 
 .rabbit-ears {
@@ -30,13 +29,12 @@
 
 .rabbit-ear {
   position: absolute;
-  top: -48px;
+  top: -35px;
   width: 30px;
   height: 64px;
   border: 1px solid #ece7ec;
   border-radius: 65% 65% 40% 40%;
   background: #fff;
-  box-shadow: 0 -4px 12px rgba(19, 41, 75, 0.04);
   transform-origin: bottom center;
 }
 
@@ -49,20 +47,22 @@
 }
 
 .rabbit-ear-left {
-  left: 48px;
+  left: 20px;
   transform: rotate(-14deg);
 }
 
 .rabbit-ear-right {
-  right: 48px;
+  right: 20px;
   transform: rotate(14deg);
 }
 
 .profile-card .image.avatar img {
+  display: block;
   box-sizing: border-box;
   width: 150px;
   padding: 0;
-  margin-bottom: 16px;
+  box-shadow: 0 12px 30px rgba(19, 41, 75, 0.16),
+              0 3px 8px rgba(19, 41, 75, 0.08);
 }
 
 .profile-card email {
@@ -104,8 +104,7 @@
 }
 
 @media print {
-  .profile-card {
-    border: 0;
+  .profile-card .image.avatar img {
     box-shadow: none;
   }
 

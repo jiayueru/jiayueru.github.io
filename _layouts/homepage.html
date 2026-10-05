@@ -94,13 +94,15 @@
     <div class="wrapper homepage-wrapper">
       <header class="profile-sidebar">
         <div class="profile-card">
+
+        {% if site.avatar %}
+        <span class="image avatar profile-portrait">
           <span class="rabbit-ears" aria-hidden="true">
             <span class="rabbit-ear rabbit-ear-left"></span>
             <span class="rabbit-ear rabbit-ear-right"></span>
           </span>
-        
-        {% if site.avatar %}
-        <a class="image avatar"><img src="{{ site.avatar }}" alt="avatar" /></a>
+          <img src="{{ site.avatar }}" alt="{{ site.title }}" />
+        </span>
         {% endif %}
 
         <h1>{{ site.title }}</h1>
