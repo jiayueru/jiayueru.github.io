@@ -23,7 +23,9 @@ My research interests lie in the fields of <strong>Robotics</strong> and <strong
 
 ## Miscellaneous
 
-I love reading books and magazines, listening to podcasts, and recording moments from my daily life. In my free time, I enjoy exploring new activities, such as photography 📷, badminton 🏸, piano 🎹, and skiing ⛷️. I hope that someday, my robotic friends can join in the fun too! 🤖✨
+I love reading books and magazines, listening to podcasts, and recording moments from my daily life. In my free time, I enjoy exploring new activities, such as photography 📷, badminton 🏸, piano 🎹, and jazz dance 💃. I hope that someday, my robotic friends can join in the fun too! 🤖✨
+
+My current favorite phrase is “心无所住”.
 
 
 <div id="clustr_globe_container" style="
