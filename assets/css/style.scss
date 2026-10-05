@@ -4,28 +4,31 @@
 @import "minimal-light";
 
 .profile-sidebar {
+  --portrait-width: 128px;
   width: 210px;
   left: 70px;
-  padding-top: 130px;
+  padding-top: 112px;
 }
 
 .profile-card {
   box-sizing: border-box;
-  padding: 20px 18px 16px;
+  padding: 14px 12px 12px;
 }
 
 .profile-portrait {
+  display: block;
   isolation: isolate;
-  width: 150px;
-  margin-bottom: 16px;
+  width: var(--portrait-width);
+  margin: 0 auto 18px;
+  line-height: 0;
 }
 
 .profile-robot {
   position: absolute;
   z-index: 1;
-  top: -72px;
+  bottom: calc(100% - 7px);
   left: 50%;
-  width: 130px;
+  width: 50%;
   height: auto;
   overflow: visible;
   transform: translateX(-50%);
@@ -35,7 +38,8 @@
 .profile-card .image.avatar > img {
   display: block;
   box-sizing: border-box;
-  width: 150px;
+  width: 100%;
+  height: auto;
   padding: 0;
   box-shadow: 0 12px 30px rgba(19, 41, 75, 0.16),
               0 3px 8px rgba(19, 41, 75, 0.08);
@@ -55,6 +59,19 @@
   overflow-wrap: anywhere;
 }
 
+.profile-card h1 {
+  margin-bottom: 12px;
+}
+
+.profile-card .social-icons,
+.profile-text-links {
+  margin-top: 16px;
+}
+
+.homepage-wrapper #about-me {
+  margin: 80px 0 10px;
+}
+
 @media screen and (max-width: 1200px) {
   div.homepage-wrapper {
     width: auto;
@@ -62,11 +79,12 @@
   }
 
   .homepage-wrapper .profile-sidebar {
+    --portrait-width: 112px;
     position: static;
     float: none;
     width: auto;
-    padding-top: 134px;
-    margin-bottom: 32px;
+    padding-top: 108px;
+    margin-bottom: 24px;
   }
 
   .profile-card {
@@ -79,7 +97,12 @@
     float: none;
     width: auto;
     margin: 0;
-    padding: 20px 0;
+    padding: 0 0 20px;
+    border: 0;
+  }
+
+  .homepage-wrapper #about-me {
+    margin-top: 0;
   }
 
   .homepage-wrapper > footer {

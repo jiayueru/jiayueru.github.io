@@ -3,7 +3,7 @@
 
 <div class="project-item" style="margin-bottom: 30px;">
   <div style="display: flex; align-items: flex-start; gap: 20px; flex-wrap: wrap;">
-    <div style="flex: 1; min-width: 300px;">
+    <div style="flex: 1; min-width: min(300px, 100%);">
       <h3 style="margin-bottom: 10px;">
         <strong>Co-founder</strong> | 
         <a href="https://lumina-embodied.ai/about" target="_blank">Lumina Embodied AI Community</a>

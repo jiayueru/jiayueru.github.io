@@ -2,7 +2,7 @@
 layout: homepage
 ---
 
-<h2 id="about-me" style="margin: 80px 0px 10px;">About Me</h2>
+<h2 id="about-me">About Me</h2>
 
 I am currently a third-year Master's student at the School of Computer Science, Peking University, advised by [Prof. Shanghang Zhang](https://www.shanghangzhang.com/). Previously, I completed my Bachelor's degree in Artificial Intelligence as part of the inaugural cohort of the [Tong Class](https://tongclass.ac.cn/) at Yuanpei College, Peking University. I was fortunate to be honored with the **PKU Excellent Graduate Award**.
 

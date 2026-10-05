@@ -120,14 +120,13 @@
         <email>{{ site.email2 }}</email>
         {% endif %}
         
-        <br>
-        <br>
-
         {% if site.link_type == 'text' %}
+        <div class="profile-text-links">
         [<a href="{{ site.google_scholar }}">Google Scholar</a>]
         <br>
         [<a href="{{ site.cv_link }}">Curriculum Vitae</a>]
         <br>
+        </div>
         {% endif %}
 
         {% if site.link_type == 'icon' %}
