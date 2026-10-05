@@ -62,7 +62,7 @@ h2[id] {
   scroll-margin-top: 84px;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 640px) {
   .topnav {
     flex-wrap: wrap;
     gap: 0 16px;

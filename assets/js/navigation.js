@@ -22,4 +22,4 @@ navigation.addEventListener('keydown', event => {
   }
 });
 
-window.matchMedia('(max-width: 1200px)').addEventListener('change', closeNavigation);
+window.matchMedia('(max-width: 640px)').addEventListener('change', closeNavigation);

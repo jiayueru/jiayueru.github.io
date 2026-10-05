@@ -1,17 +1,9 @@
 main:
   - title: "About Me"
     url: /#about-me
-  - title: "Research Interests"
-    url: /#research-interests
-  - title: "Education"
-    url: /#education
-  - title: "News"
-    url: /#news
-  - title: "Selected Projects"
+  - title: "Research Work"
     url: /#publications
   - title: "Experience"
     url: /#experience
-  - title: "Honors & Awards"
+  - title: "Honors"
     url: /#honors
-  - title: "Miscellaneous"
-    url: /#miscellaneous

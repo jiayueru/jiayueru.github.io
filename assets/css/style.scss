@@ -24,3 +24,13 @@
   height: 100%;
   object-fit: contain;
 }
+
+.community-projects .project-details {
+  margin: 10px 0;
+  padding-left: 18px;
+}
+
+.community-projects ol.bibliography .project-details li {
+  min-height: 0;
+  margin-bottom: 4px;
+}
