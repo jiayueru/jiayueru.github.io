@@ -97,10 +97,7 @@
 
         {% if site.avatar %}
         <span class="image avatar profile-portrait">
-          <span class="rabbit-ears" aria-hidden="true">
-            <span class="rabbit-ear rabbit-ear-left"></span>
-            <span class="rabbit-ear rabbit-ear-right"></span>
-          </span>
+          {% include profile-robot.html %}
           <img src="{{ site.avatar }}" alt="{{ site.title }}" />
         </span>
         {% endif %}
