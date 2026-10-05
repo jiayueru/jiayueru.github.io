@@ -23,22 +23,32 @@
 .profile-robot {
   position: absolute;
   z-index: 1;
-  top: -65px;
+  top: -72px;
   left: 50%;
-  width: 98px;
+  width: 130px;
   height: auto;
   overflow: visible;
   transform: translateX(-50%);
   pointer-events: none;
 }
 
-.profile-card .image.avatar img {
+.profile-card .image.avatar > img {
   display: block;
   box-sizing: border-box;
   width: 150px;
   padding: 0;
   box-shadow: 0 12px 30px rgba(19, 41, 75, 0.16),
               0 3px 8px rgba(19, 41, 75, 0.08);
+}
+
+.profile-card .profile-robot img {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
 }
 
 .profile-card email {
@@ -80,7 +90,7 @@
 }
 
 @media print {
-  .profile-card .image.avatar img {
+  .profile-card .image.avatar > img {
     box-shadow: none;
   }
 
