@@ -14,7 +14,7 @@ main:
     conference: arXiv Preprint, 2026.
     pdf: https://arxiv.org/pdf/2607.02840
     page: https://taco-wm.github.io/
-    image: ./assets/img/taco_teaser.png
+    image: ./assets/img/taco_teaser_left.png
     notes: Co-First Author
 
   - title: "HarmoWAM: Harmonizing Generalizable and Precise Manipulation via Adaptive World Action Models"
@@ -24,7 +24,6 @@ main:
     pdf: https://arxiv.org/pdf/2605.10942
     page: https://elbb-yu.github.io/HarmoWAM/
     image: ./assets/img/harmowam_teaser.png
-    notes: Co-First Author
 
   - title: "Video2Act: A Dual-System Video Diffusion Policy with Robotic Spatio-Motional Modeling"
     authors: <strong>Yueru Jia*</strong>, Jiaming Liu*, Shengbang Liu*, Rui Zhou, Wanhe Yu, Yuyang Yan, Xiaowei Chi, Yandong Guo, Boxin Shi, Shanghang Zhang
@@ -32,7 +31,7 @@ main:
     conference: arXiv Preprint, 2025.
     pdf: https://video2act.github.io/
     page: https://video2act.github.io/
-    image: ./assets/img/video2act_teaser_v1.jpg
+    image: ./assets/img/video2act_pipeline.png
     notes: Co-First Author
 
   - title: "Lift3D Foundation Policy: Lifting 2D Large-Scale Pretrained Models for Robust 3D Robotic Manipulation"
