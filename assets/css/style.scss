@@ -26,13 +26,13 @@
 .profile-robot {
   position: absolute;
   z-index: 1;
-  /* Seat both palms on the portrait's upper-left elliptical edge. */
-  bottom: calc(100% - var(--portrait-width) * 0.21);
-  left: 24%;
+  /* Rest both palms symmetrically over the top of the portrait. */
+  bottom: calc(100% - var(--portrait-width) * 0.08);
+  left: 50%;
   width: 50%;
   height: auto;
   overflow: visible;
-  transform: translateX(-50%) rotate(-47deg);
+  transform: translateX(-50%);
   transform-origin: 50% 100%;
   pointer-events: none;
 }
