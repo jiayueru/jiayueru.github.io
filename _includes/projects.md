@@ -1,5 +1,4 @@
-<div id="experience" style="position: relative; top: -60px;"></div>
-<h2 style="margin: 60px 0px 10px;">Experience</h2>
+<h2 id="experience" style="margin: 60px 0px 10px;">Experience</h2>
 
 <div class="project-item" style="margin-bottom: 30px;">
   <div style="display: flex; align-items: flex-start; gap: 20px; flex-wrap: wrap;">
@@ -15,8 +14,8 @@
         <li>Organized academic events and workshops to facilitate knowledge sharing and collaboration in the embodied AI field.</li>
       </ul>
     </div>
-    <div style="flex-shrink: 0; width: 180px; height: 135px; border-radius: 8px; overflow: hidden; padding: 6px; background-color: #ffffff; box-sizing: border-box;">
-      <img src="./assets/img/Lumina.png" alt="Lumina Community" class="teaser img-fluid z-depth-1" style="width: 100%; height: 100%; object-fit: contain; border-radius: 4px;">
+    <div class="lumina-logo">
+      <img src="./assets/img/Lumina.png" alt="Lumina Community">
     </div>
   </div>
 </div>

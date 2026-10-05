@@ -1,32 +1,17 @@
 main:
-
-  # - title: "Openings"
-  #   url: /openings/
-  #   right: true 
-
-  # - title: "Teaching"
-  #   url: /teaching/
-
-  # - title: "Services"
-  #   url: /services/
-
-  # - title: "Talks"
-  #   url: /talks/
-
-  #- title: "Teaching"
-  #  url: ./teaching.html
-
-  # - title: "Publications"
-  #   url: /publications/
-
-  - title: "About"
+  - title: "About Me"
     url: /#about-me
-
-  - title: "Projects"
+  - title: "Research Interests"
+    url: /#research-interests
+  - title: "Education"
+    url: /#education
+  - title: "News"
+    url: /#news
+  - title: "Selected Projects"
     url: /#publications
-
   - title: "Experience"
     url: /#experience
-
-  - title: "Honors"
+  - title: "Honors & Awards"
     url: /#honors
+  - title: "Miscellaneous"
+    url: /#miscellaneous

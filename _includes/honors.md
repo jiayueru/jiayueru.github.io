@@ -1,4 +1,4 @@
-## Honors & Awards
+<h2 id="honors">Honors &amp; Awards</h2>
 
 - **National Scholarship** <span style="color:#e74d3c">(Top 0.4%, Nationwide)</span>, 2025  
 - **Outstanding Research Award of Peking University**, 2025  
