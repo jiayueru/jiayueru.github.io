@@ -38,6 +38,7 @@
 
 .topnav .university-logo {
   flex: 0 0 100px;
+  margin-right: auto;
 }
 
 .topnav .university-logo img {
