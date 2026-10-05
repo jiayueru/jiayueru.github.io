@@ -132,7 +132,7 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
     display: grid;
     place-items: center;
     /* Equal breathing room keeps the image centered, independent of the hint. */
-    padding: 24px 2px;
+    padding: 28px 2px;
 }
 
 .teaser-card-front img {
@@ -160,9 +160,8 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 
 .teaser-card-badge {
     position: absolute;
-    top: 0;
+    bottom: calc(100% + 6px);
     left: 6px;
-    transform: translateY(-50%);
     padding: 3px 8px;
     border-radius: 3px;
     background: #13294b;
