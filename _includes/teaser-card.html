@@ -1,9 +1,11 @@
 <button class="teaser-card" type="button" aria-pressed="false" aria-label="Show highlights for {{ include.work.title | escape }}" data-title="{{ include.work.title | escape }}">
   <span class="teaser-card-inner">
     <span class="teaser-card-front" aria-hidden="false">
-      <img src="{{ include.work.image | remove_first: './' | relative_url }}" alt="{{ include.work.title | escape }} teaser" loading="lazy">
-      <span class="teaser-card-caption">
+      <span class="teaser-card-media">
+        <img src="{{ include.work.image | remove_first: './' | relative_url }}" alt="{{ include.work.title | escape }} teaser" loading="lazy">
         {% if include.work.conference_short %}<span class="teaser-card-badge">{{ include.work.conference_short }}</span>{% endif %}
+      </span>
+      <span class="teaser-card-caption">
         <span class="teaser-card-hint">↻ Click to flip</span>
       </span>
     </span>

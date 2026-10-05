@@ -29,7 +29,7 @@ main:
     highlights:
       - "Sobel spatial filters and temporal FFT extract interaction-relevant structure and motion from video diffusion features."
       - "A slow VDM guides a fast DiT action expert asynchronously, supporting stable control between perception updates."
-      - "Higher average success than evaluated VLA baselines on 12 RoboTwin and six real-world manipulation tasks."
+      - "Improves real-world manipulation and generalizes to unseen objects, backgrounds, and lighting conditions."
     notes: Co-First Author
 
   - title: "TACO: TActile World Model as a Self-COrrector for Scalable Robot Policy Post-Training"
