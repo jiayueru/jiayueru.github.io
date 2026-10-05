@@ -5,6 +5,7 @@ main:
     conference_short: arXiv 2026
     conference: arXiv Preprint, 2026.
     pdf: https://arxiv.org/pdf/2608.17163
+    page: https://pd-perry.github.io/qwm/
     image: ./assets/img/qwm_teaser.png
     notes: Co-First Author
 
