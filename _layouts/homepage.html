@@ -96,10 +96,10 @@
         <div class="profile-card">
 
         {% if site.avatar %}
-        <span class="image avatar profile-portrait">
+        <button class="image avatar profile-portrait" type="button" aria-label="Send hearts to the little robot" title="Click for hearts">
           {% include profile-robot.html %}
           <img src="{{ site.avatar }}" alt="{{ site.title }}" />
-        </span>
+        </button>
         {% endif %}
 
         <h1>{{ site.title }}</h1>
@@ -215,5 +215,6 @@
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+    <script src="{{ '/assets/js/profile-hearts.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
   </body>
 </html>
