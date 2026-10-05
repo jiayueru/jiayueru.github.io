@@ -7,7 +7,7 @@
 
 <li>
 <div class="pub-row research-row">
-  <div class="col-sm-3 abbr pub-teaser" style="position: relative;padding-right: 15px;padding-left: 15px;">
+  <div class="col-sm-3 abbr pub-teaser">
     {% if link.image %} 
     {% if link.highlights %}
     {% include teaser-card.html work=link index=forloop.index %}

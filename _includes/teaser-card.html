@@ -2,8 +2,10 @@
   <span class="teaser-card-inner">
     <span class="teaser-card-front" aria-hidden="false">
       <img src="{{ include.work.image | remove_first: './' | relative_url }}" alt="{{ include.work.title | escape }} teaser" loading="lazy">
-      {% if include.work.conference_short %}<span class="teaser-card-badge">{{ include.work.conference_short }}</span>{% endif %}
-      <span class="teaser-card-hint">↻ Click to flip</span>
+      <span class="teaser-card-caption">
+        {% if include.work.conference_short %}<span class="teaser-card-badge">{{ include.work.conference_short }}</span>{% endif %}
+        <span class="teaser-card-hint">↻ Click to flip</span>
+      </span>
     </span>
     <span class="teaser-card-back" id="highlights-{{ include.index }}" aria-hidden="true">
       <span class="teaser-card-heading">Highlights</span>

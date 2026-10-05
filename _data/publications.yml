@@ -7,11 +7,12 @@ main:
     pdf: https://arxiv.org/pdf/2608.17163
     page: https://pd-perry.github.io/qwm/
     image: ./assets/img/qwm_teaser.png
-    highlights_source: https://pd-perry.github.io/qwm/
+    highlights_source: https://arxiv.org/pdf/2608.17163v1
+    # Evidence: Sections 4.1–4.4 and 5.1–5.3; Figures 4–7.
     highlights:
-      - "World-model tree search selects actions by imagining possible futures."
-      - "Q-values guide search during online learning and evaluation."
-      - "Policy and critic learn only from real environment experience."
+      - "World-model tree search combines intermediate Q-values and imagined future returns for better action selection."
+      - "Search guides online collection and evaluation; the policy and critic train only on real transitions."
+      - "Improves sample efficiency on Robomimic and LIBERO, with implementations on both EXPO and RLPD."
     notes: Co-First Author
 
   - title: "Video2Act: A Dual-System Video Diffusion Policy with Robotic Spatio-Motional Modeling"
@@ -23,11 +24,12 @@ main:
     code: https://github.com/jiayueru/Video2Act
     github: https://github.com/jiayueru/Video2Act
     image: ./assets/img/video2act_pipeline.png
-    highlights_source: https://arxiv.org/abs/2512.03044
+    highlights_source: https://arxiv.org/pdf/2512.03044v3
+    # Evidence: Sections 3.3–3.4 and 4.1–4.4; Figure 3 and Table 1.
     highlights:
-      - "Extracts object boundaries and motion cues from video diffusion models."
-      - "Pairs slow video understanding with a fast action policy."
-      - "Enables stable manipulation with infrequent video-model updates."
+      - "Sobel spatial filters and temporal FFT extract interaction-relevant structure and motion from video diffusion features."
+      - "A slow VDM guides a fast DiT action expert asynchronously, supporting stable control between perception updates."
+      - "Higher average success than evaluated VLA baselines on 12 RoboTwin and six real-world manipulation tasks."
     notes: Co-First Author
 
   - title: "TACO: TActile World Model as a Self-COrrector for Scalable Robot Policy Post-Training"
@@ -37,11 +39,12 @@ main:
     pdf: https://arxiv.org/pdf/2607.02840
     page: https://taco-wm.github.io/
     image: ./assets/img/taco_teaser_left.png
-    highlights_source: https://arxiv.org/abs/2607.02840v2
+    highlights_source: https://arxiv.org/pdf/2607.02840v2
+    # Evidence: Sections III-A–III-C and IV-A–IV-B; Table I. Task score credits partial completion.
     highlights:
-      - "Recognizes contact failures and imagines joint visual–tactile corrections."
-      - "Labels corrective actions for iterative robot policy post-training."
-      - "Average task score: 0.375 → 0.825 after two iterations."
+      - "A compositional tactile world model jointly predicts video and force–torque signals to imagine contact-consistent corrections."
+      - "Recognize–Imagine–Label localizes failures, generates corrections, and selects them by feasibility and predicted progress."
+      - "Knowledge-insulated CFG-RL keeps the VLM fixed; mean task score rises from 0.375 to 0.825 after two iterations."
     notes: Co-First Author
 
   - title: "HarmoWAM: Harmonizing Generalizable and Precise Manipulation via Adaptive World Action Models"
@@ -51,11 +54,12 @@ main:
     pdf: https://arxiv.org/pdf/2605.10942
     page: https://elbb-yu.github.io/HarmoWAM/
     image: ./assets/img/harmowam_teaser.png
-    highlights_source: https://elbb-yu.github.io/HarmoWAM/
+    highlights_source: https://arxiv.org/pdf/2605.10942v1
+    # Evidence: Sections 3.2–3.4 and 4.2–4.3; Figure 2 and Tables 2–3.
     highlights:
-      - "Unifies generalizable transit and precise robot manipulation."
-      - "Adaptively coordinates predictive and reactive action experts."
-      - "89% in-domain / 82% OOD success across real-world benchmarks."
+      - "Combines explicit video prediction for generalizable transit with latent dynamics for precise interaction."
+      - "Process-adaptive gating switches between reactive and predictive experts according to the current task stage."
+      - "Six real-world tasks demonstrate generalization to unseen backgrounds, object positions, and object instances."
 
   - title: "Lift3D Foundation Policy: Lifting 2D Large-Scale Pretrained Models for Robust 3D Robotic Manipulation"
     authors: <strong>Yueru Jia*</strong>, Jiaming Liu*, Sixiang Chen*, Chenyang Gu, Zhilue Wang, Longzan Luo, Lily Lee, Pengwei Wang, Renrui Zhang, Zhongyuan Wang, Shanghang Zhang
@@ -65,11 +69,12 @@ main:
     page: https://lift3d-web.github.io/
     code: https://github.com/PKU-HMI-Lab/LIFT3D.git
     image: ./assets/img/lift3d_teaser.png
-    highlights_source: https://lift3d-web.github.io/
+    highlights_source: https://arxiv.org/pdf/2411.18623v2
+    # Evidence: Sections 3.2–3.3 and 4.1–4.4; Figure 2.
     highlights:
-      - "Lifts pretrained 2D foundation models into 3D manipulation policies."
-      - "Builds spatial awareness through task-aware depth reconstruction."
-      - "Encodes point clouds using pretrained 2D positional embeddings."
+      - "Affordance-guided masking and depth reconstruction build implicit 3D awareness in pretrained 2D foundation models."
+      - "Reuses 2D positional embeddings to encode point clouds directly, preserving explicit 3D geometry."
+      - "Evaluated on Meta-World, Adroit, RLBench, and ten real-world tasks using 30 demonstrations per real-world task."
     github: "https://github.com/PKU-HMI-Lab/LIFT3D"
     notes: Co-First Author
 
@@ -81,11 +86,12 @@ main:
     code: https://github.com/design-edit/DesignEdit
     page: https://design-edit.github.io/
     image: ./assets/img/design_teaser.png
-    highlights_source: https://design-edit.github.io/
+    highlights_source: https://ojs.aaai.org/index.php/AAAI/article/download/32414/34569
+    # Evidence: AAAI-25 published paper, pp. 3958–3962; Method and Applications.
     highlights:
-      - "Unifies spatial image editing without additional model training."
-      - "Decomposes and fuses object layers in diffusion latent space."
-      - "Supports removal, relocation, resizing, composition, and more."
+      - "Training-free key-masked self-attention and artifact suppression inpaint backgrounds while removing unwanted objects."
+      - "Decomposes images into latent layers, then fuses them by target layout in one diffusion denoising process."
+      - "Supports complex multi-object edits, including occlusion-aware editing, camera panning, zooming out, and cross-image composition."
     github: "https://github.com/design-edit/DesignEdit"
     notes: First Author
 
@@ -97,11 +103,12 @@ main:
     page: https://wow-world-model.github.io/
     code: https://github.com/wow-world-model/wow-world-model
     image: ./assets/img/wow_teaser.png
-    highlights_source: https://wow-world-model.github.io/
+    highlights_source: https://arxiv.org/pdf/2509.22642v2
+    # Evidence: Sections 4.1–4.3 and 5; Figures 6–9.
     highlights:
-      - "14B world model trained on 2M robot interaction trajectories."
-      - "SOPHIA refines imagined videos for greater physical consistency."
-      - "An inverse dynamics model turns plans into executable actions."
+      - "Trains a 14B video world model on 2M robot trajectories, with DINO-based feature alignment."
+      - "SOPHIA uses VLM critics to refine prompts; a flow-mask inverse dynamics model converts predicted transitions into actions."
+      - "Introduces WoWBench to evaluate physical consistency, planning, instruction following, and video quality."
     github: https://github.com/wow-world-model/wow-world-model
 
   - title: "RwoR: Generating Robot Demonstrations from Human Hand Collection for Policy Learning without Robot"
@@ -110,8 +117,9 @@ main:
     conference: IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2025.
     pdf: https://arxiv.org/abs/2507.03930
     image: ./assets/img/rwor_teaser.jpg
-    highlights_source: https://arxiv.org/abs/2507.03930
+    highlights_source: https://arxiv.org/pdf/2507.03930v2
+    # Evidence: Sections III-A–III-C and IV; Figure 2 and Table I.
     highlights:
-      - "Collects human demonstrations with a wrist-mounted camera."
-      - "Translates human-hand videos into robot-gripper demonstrations."
-      - "Pairs generated observations with extracted SE(3) training actions."
+      - "Collects human-hand demonstrations without a robot, then extracts gripper actions from wrist-camera trajectories."
+      - "Aligns paired human/UMI demonstrations to train diffusion-based hand-to-gripper translation, bridging the visual embodiment gap."
+      - "Policies trained on generated demonstrations perform comparably to UMI-collected data on the evaluated manipulation tasks."
