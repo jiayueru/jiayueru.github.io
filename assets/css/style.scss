@@ -47,6 +47,61 @@
               0 3px 8px rgba(19, 41, 75, 0.08);
 }
 
+/* Keep the SVG's placement fixed; animate its parts in viewBox coordinates. */
+.profile-robot .robot-body {
+  transform-box: view-box;
+  transform-origin: 56px 77px;
+  animation: robot-peek 5s ease-in-out infinite;
+}
+
+.profile-robot .robot-eyes {
+  transform-box: view-box;
+  transform-origin: 56px 50px;
+  animation: robot-blink 5.6s ease-in-out infinite;
+}
+
+.profile-robot .robot-antenna {
+  transform-box: view-box;
+  transform-origin: 56px 26px;
+  animation: robot-heart-sway 3.2s ease-in-out infinite;
+}
+
+.profile-robot .robot-wave {
+  transform-box: view-box;
+  transform-origin: 75px 77px;
+  animation: robot-wave 8s ease-in-out infinite;
+}
+
+@keyframes robot-peek {
+  0%, 100% { transform: translateY(0) rotate(-1deg); }
+  50% { transform: translateY(-2px) rotate(1deg); }
+}
+
+@keyframes robot-blink {
+  0%, 39%, 45%, 72%, 78%, 100% { transform: scaleY(1); }
+  42%, 75% { transform: scaleY(0.08); }
+}
+
+@keyframes robot-heart-sway {
+  0%, 100% { transform: rotate(-5deg); }
+  50% { transform: rotate(5deg); }
+}
+
+@keyframes robot-wave {
+  0%, 62%, 92%, 100% { transform: translateY(0) rotate(0); }
+  68%, 78%, 88% { transform: translateY(-7px) rotate(-18deg); }
+  73%, 83% { transform: translateY(-7px) rotate(12deg); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .profile-robot .robot-body,
+  .profile-robot .robot-eyes,
+  .profile-robot .robot-antenna,
+  .profile-robot .robot-wave {
+    animation: none;
+  }
+}
+
 .profile-card .profile-robot img {
   display: block;
   width: 100%;
