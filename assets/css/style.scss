@@ -35,6 +35,7 @@
   transform: translateX(-50%);
   transform-origin: 50% 100%;
   pointer-events: none;
+  animation: robot-bounce 2.6s ease-in-out infinite;
 }
 
 .profile-card .image.avatar > img {
@@ -47,34 +48,39 @@
               0 3px 8px rgba(19, 41, 75, 0.08);
 }
 
-/* Keep the SVG's placement fixed; animate its parts in viewBox coordinates. */
+/* Animate the parts in viewBox coordinates, with a visible overall bounce. */
 .profile-robot .robot-body {
   transform-box: view-box;
   transform-origin: 56px 77px;
-  animation: robot-peek 5s ease-in-out infinite;
+  animation: robot-peek 2.6s ease-in-out infinite;
 }
 
 .profile-robot .robot-eyes {
   transform-box: view-box;
   transform-origin: 56px 50px;
-  animation: robot-blink 5.6s ease-in-out infinite;
+  animation: robot-blink 3.6s ease-in-out -1s infinite;
 }
 
 .profile-robot .robot-antenna {
   transform-box: view-box;
   transform-origin: 56px 26px;
-  animation: robot-heart-sway 3.2s ease-in-out infinite;
+  animation: robot-heart-sway 1.8s ease-in-out infinite;
 }
 
 .profile-robot .robot-wave {
   transform-box: view-box;
   transform-origin: 75px 77px;
-  animation: robot-wave 8s ease-in-out infinite;
+  animation: robot-wave 4s ease-in-out -0.3s infinite;
+}
+
+@keyframes robot-bounce {
+  0%, 100% { transform: translate(-50%, 0) rotate(-3deg); }
+  50% { transform: translate(-50%, -5px) rotate(3deg); }
 }
 
 @keyframes robot-peek {
-  0%, 100% { transform: translateY(0) rotate(-1deg); }
-  50% { transform: translateY(-2px) rotate(1deg); }
+  0%, 100% { transform: translateY(0) rotate(-2deg); }
+  50% { transform: translateY(-4px) rotate(2deg); }
 }
 
 @keyframes robot-blink {
@@ -83,17 +89,18 @@
 }
 
 @keyframes robot-heart-sway {
-  0%, 100% { transform: rotate(-5deg); }
-  50% { transform: rotate(5deg); }
+  0%, 100% { transform: rotate(-12deg); }
+  50% { transform: rotate(12deg); }
 }
 
 @keyframes robot-wave {
-  0%, 62%, 92%, 100% { transform: translateY(0) rotate(0); }
-  68%, 78%, 88% { transform: translateY(-7px) rotate(-18deg); }
-  73%, 83% { transform: translateY(-7px) rotate(12deg); }
+  0%, 60%, 100% { transform: translateY(0) rotate(0); }
+  10%, 30%, 50% { transform: translate(3px, -13px) rotate(-30deg); }
+  20%, 40% { transform: translate(3px, -13px) rotate(20deg); }
 }
 
 @media (prefers-reduced-motion: reduce) {
+  .profile-robot,
   .profile-robot .robot-body,
   .profile-robot .robot-eyes,
   .profile-robot .robot-antenna,
