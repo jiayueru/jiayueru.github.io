@@ -7,6 +7,8 @@ main:
     pdf: https://arxiv.org/pdf/2608.17163
     page: https://pd-perry.github.io/qwm/
     image: ./assets/img/qwm_teaser.png
+    image_width: 2403
+    image_height: 902
     highlights_source: https://arxiv.org/pdf/2608.17163v1
     # Evidence: Sections 4.1–4.4 and 5.1–5.3; Figures 4–7.
     highlights:
@@ -24,6 +26,8 @@ main:
     code: https://github.com/jiayueru/Video2Act
     github: https://github.com/jiayueru/Video2Act
     image: ./assets/img/video2act_pipeline.png
+    image_width: 1600
+    image_height: 682
     highlights_source: https://arxiv.org/pdf/2512.03044v3
     # Evidence: Sections 3.3–3.4 and 4.1–4.4; Figure 3 and Table 1.
     highlights:
@@ -39,6 +43,8 @@ main:
     pdf: https://arxiv.org/pdf/2607.02840
     page: https://taco-wm.github.io/
     image: ./assets/img/taco_teaser_left.png
+    image_width: 656
+    image_height: 282
     highlights_source: https://arxiv.org/pdf/2607.02840v2
     # Evidence: Sections III-A–III-C and IV-A–IV-B; Table I. Task score credits partial completion.
     highlights:
@@ -54,6 +60,8 @@ main:
     pdf: https://arxiv.org/pdf/2605.10942
     page: https://elbb-yu.github.io/HarmoWAM/
     image: ./assets/img/harmowam_teaser.png
+    image_width: 1938
+    image_height: 839
     highlights_source: https://arxiv.org/pdf/2605.10942v1
     # Evidence: Sections 3.2–3.4 and 4.2–4.3; Figure 2 and Tables 2–3.
     highlights:
@@ -69,6 +77,8 @@ main:
     page: https://lift3d-web.github.io/
     code: https://github.com/PKU-HMI-Lab/LIFT3D.git
     image: ./assets/img/lift3d_teaser.png
+    image_width: 1864
+    image_height: 776
     highlights_source: https://arxiv.org/pdf/2411.18623v2
     # Evidence: Sections 3.2–3.3 and 4.1–4.4; Figure 2.
     highlights:
@@ -86,6 +96,8 @@ main:
     code: https://github.com/design-edit/DesignEdit
     page: https://design-edit.github.io/
     image: ./assets/img/design_teaser.png
+    image_width: 1520
+    image_height: 578
     highlights_source: https://ojs.aaai.org/index.php/AAAI/article/download/32414/34569
     # Evidence: AAAI-25 published paper, pp. 3958–3962; Method and Applications.
     highlights:
@@ -103,6 +115,8 @@ main:
     page: https://wow-world-model.github.io/
     code: https://github.com/wow-world-model/wow-world-model
     image: ./assets/img/wow_teaser.png
+    image_width: 1858
+    image_height: 1010
     highlights_source: https://arxiv.org/pdf/2509.22642v2
     # Evidence: Sections 4.1–4.3 and 5; Figures 6–9.
     highlights:
@@ -117,6 +131,8 @@ main:
     conference: IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2025.
     pdf: https://arxiv.org/abs/2507.03930
     image: ./assets/img/rwor_teaser.jpg
+    image_width: 1806
+    image_height: 876
     highlights_source: https://arxiv.org/pdf/2507.03930v2
     # Evidence: Sections III-A–III-C and IV; Figure 2 and Table I.
     highlights:

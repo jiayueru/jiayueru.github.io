@@ -130,9 +130,9 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 
 .teaser-card-front {
     display: grid;
-    grid-template-rows: 1fr auto;
-    align-items: center;
-    padding: 2px;
+    place-items: center;
+    /* Equal breathing room keeps the image centered, independent of the hint. */
+    padding: 24px 2px;
 }
 
 .teaser-card-front img {
@@ -146,21 +146,23 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 .teaser-card-media {
     display: block;
     position: relative;
+    width: 100%;
     min-width: 0;
 }
 
 .teaser-card-caption {
+    position: absolute;
+    right: 8px;
+    bottom: 6px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 8px;
-    padding: 5px 6px 3px;
 }
 
 .teaser-card-badge {
     position: absolute;
-    top: -10px;
+    top: 0;
     left: 6px;
+    transform: translateY(-50%);
     padding: 3px 8px;
     border-radius: 3px;
     background: #13294b;
