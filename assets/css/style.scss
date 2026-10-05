@@ -27,11 +27,12 @@
   position: absolute;
   z-index: 1;
   bottom: calc(100% - 11px);
-  left: 43%;
+  left: 29%;
   width: 50%;
   height: auto;
   overflow: visible;
-  transform: translateX(-50%);
+  transform: translateX(-50%) rotate(-18deg);
+  transform-origin: 50% 100%;
   pointer-events: none;
 }
 
